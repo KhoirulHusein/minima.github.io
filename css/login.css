@@ -1,0 +1,145 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.image-container{
+  background: url('../img/content/image-login.svg') center no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.form-container{
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.form-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.form-box h4{
+  font-weight: bold;
+  color: #000;
+}
+
+.form-box .form-input{
+  position: relative;
+}
+
+.form-box .form-input input{
+  width: 100%;
+  height: 57px;
+  margin-bottom: 20px;
+  border:none;
+  border-radius: 25px;
+  outline: none;
+  background: #EEEEEE;
+  padding-left: 45px;
+}
+
+.form-box .form-input span{
+  position: absolute;
+  top: 15px;
+  padding-left: 17px;
+}
+
+.form-box .form-input input::placeholder{
+  padding-left: 0px;
+}
+
+.form-box .form-input input:focus,
+.form-box .form-input input:valid{
+  border-bottom: 3px solid #00ADB5;
+}
+
+.form-box input[type="checkbox"]:not(:checked) + label:before{
+  background: transparent;
+  border: 2px solid #fff;
+  width: 15px;
+  height: 15px;
+}
+
+.form-box .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before{
+  background-color: #48403d;
+  border: 0px;
+}
+
+.forget-link, .register-link, .login-link{
+  color: #666666;
+  font-weight: bold;
+}
+
+.forget-link:hover, .register-link:hover, .login-link:hover{
+  color: #95E1D3;
+}
+
+.form-box button[type="submit"]{
+  margin-left: 65%;
+  border: none;
+  cursor: pointer;
+  width: 150px;
+  height: 40px;
+  border:none;
+  border-radius: 25px;
+  background-color: #00ADB5;
+  color: #fff;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 601px) {
+  .form-box button[type="submit"]{
+    margin-left: 48%;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    border:none;
+    border-radius: 25px;
+    background-color: #00ADB5;
+    color: #fff;
+    font-weight: bold;
+    transition: 0.5s;
+  }
+}
+
+.form-box button[type="submit"]:hover{
+  box-shadow: 0px 9px 10px -2px #00ADB5;
+  -webkit-box-shadow: 0px 9px 10px -2px #00ADB5;
+  -moz-box-shadow: 0px 9px 10px -2px #00ADB5;
+}
+
+.form-box .btn-social{
+  color: #fff;
+  border: 0px;
+  display: inline-block;
+  margin: 0px;
+  margin-right: 10px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+.signup {
+  border: none;
+  cursor: pointer;
+  width: 150px;
+  height: 40px;
+  border: 1px solid #00ADB5;
+  border-radius: 25px;
+  background-color: #fff;
+  color: #00ADB5;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.signup:hover {
+  color: #00ADB5;
+  box-shadow: 0px 9px 10px -2px #00ADB5;
+  -webkit-box-shadow: 0px 9px 10px -2px #00ADB5;
+  -moz-box-shadow: 0px 9px 10px -2px #00ADB5;
+}

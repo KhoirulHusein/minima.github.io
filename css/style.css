@@ -1,0 +1,189 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+#Active{
+  color: #00ADB5;
+}
+
+#navbarSupportedContent ul li a {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 0 30px;
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+#navbarSupportedContent ul li a:after {
+  content: '';
+  height: 2px;
+  width: 0%;
+  background-color: #00ADB5;;
+  display: block;
+  transition: .5s ease-in-out;
+}
+
+#navbarSupportedContent ul li a:hover::after {
+  content: '';
+  height: 2px;
+  width: 100%;
+  background-color: #00ADB5;;
+  display: block;
+  transition: .5s ease-in-out;
+}
+
+@media screen and (min-width: 600px) {
+  .d-flex {
+    width: 500px;
+    height: 50px;
+    margin: auto;
+    background-color: #EEEEEE;
+    border-radius: 24px;
+  }
+}
+
+@media screen and (max-width: 601px) {
+  .d-flex {
+    width: 43vh;
+    height: 50px;
+    margin: auto;
+    background-color: #EEEEEE;
+    border-radius: 24px;
+  }
+}
+
+.d-flex input {
+  background: transparent;
+  flex: 1;
+  border: 24px;
+  outline: none;
+  padding: 0 25px;
+}
+
+.bag {
+  width: 35px;
+  height: auto;
+}
+
+.profile {
+  width: 30px;
+  height: auto;
+}
+
+
+/* Isi contentnya */
+.main-topic{
+  margin: 0 9%;
+}
+
+.info {
+  margin: 15% 0;
+}
+
+@media screen and (min-width: 600px) {
+  .info h1 {
+    font-size: 58px;
+  }
+
+  .info #custom {
+    font-size: 17px;
+    margin-right: 10%;
+  }
+
+  .chair-image img {
+    width: 500px;
+    height: auto;
+    margin-top: 13%;
+    margin-left: -25px;
+  }
+}
+
+@media screen and (max-width: 601px) {
+  .info h1 {
+    font-size: 36px;
+  }
+
+  .info #custom {
+    font-size: 12px;
+    margin-right: 20%;
+  }
+
+  .chair-image img {
+    width: 250px;
+    height: auto;
+    margin: 0 10%;
+  }
+
+  .carousel-control-next-icon {
+    background-color: transparent;
+  }
+}
+/* bagian carousel dan button */
+
+carousel-color-1 {
+  color: #FCE38A;
+}
+
+carousel-color-2 {
+  color:#BDBBB5;
+}
+
+carousel-color-3 {
+  color: #8C8085;
+}
+
+.info a {
+  margin: 0;
+  width: auto;
+  height: auto;
+  padding: 10px;
+  border-radius: 18px;
+}
+
+.btn-first {
+  background-color: #FCE38A;
+  color: #393E46;
+  font-weight: 700;
+}
+
+.btn-firsts {
+  background-color: #BDBBB5;
+  color: #393E46;
+  font-weight: 700;
+}
+
+.btn-firstss {
+  background-color: #8C8085;
+  color: #393E46;
+  font-weight: 700;
+}
+
+/* Ini untuk mengubah posisi icon previous and next */
+.carousel-control-prev {
+  margin-left: -150px;
+}
+
+.carousel-control-next {
+  margin-right: 5px;
+}
+
+@media screen and (min-width: 600px) {
+  /* yang ini buat ganti warna icon */
+/* fill='red' kalau mau ganti warna tinggal ganti aja ke white atau bisa pake kode hex */
+/* contoh fill='%233275a8' %23 dipakai untuk ganti tanda # */
+.carousel-control-prev-icon {
+  background-image: url("../img/content/right.png") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("../img/content/left.png") !important;
+}
+}
+
+
+/* Footer */
+.margin {
+  margin-top: 10%;
+}

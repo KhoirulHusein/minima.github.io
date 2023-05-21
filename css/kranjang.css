@@ -1,0 +1,122 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+#Active{
+  color: #00ADB5;
+}
+
+#navbarSupportedContent ul li a {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 0 30px;
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+#navbarSupportedContent ul li a:after {
+  content: '';
+  height: 2px;
+  width: 0%;
+  background-color: #00ADB5;;
+  display: block;
+  transition: .5s ease-in-out;
+}
+
+#navbarSupportedContent ul li a:hover::after {
+  content: '';
+  height: 2px;
+  width: 100%;
+  background-color: #00ADB5;;
+  display: block;
+  transition: .5s ease-in-out;
+}
+
+@media screen and (min-width: 600px) {
+  .search {
+    width: 500px;
+    height: 50px;
+    margin: auto;
+    background-color: #EEEEEE;
+    border-radius: 24px;
+  }
+}
+
+@media screen and (max-width: 601px) {
+  .search {
+    width: 43vh;
+    height: 50px;
+    margin: auto;
+    background-color: #EEEEEE;
+    border-radius: 24px;
+  }
+}
+
+.search input {
+  background: transparent;
+  flex: 1;
+  border: 24px;
+  outline: none;
+  padding: 0 25px;
+}
+
+.bag {
+  width: 35px;
+  height: auto;
+}
+
+.profile {
+  width: 30px;
+  height: auto;
+}
+
+@media (min-width: 1025px) {
+    .h-custom {
+    height: 100vh !important;
+    }
+  }
+  
+  .card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+  }
+  
+  .card-registration .select-arrow {
+  top: 13px;
+  }
+  
+  .bg-black {
+  background-color: #363636;
+  }
+  
+  @media (min-width: 992px) {
+    .card-registration-2 .bg-black {
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .card-registration-2 .bg-black {
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    }
+  }
+
+  #product {
+    padding-left: 15px;
+    width: 90px;
+    height: auto;
+  }
+  
+  section {
+    margin-bottom: 12%;
+  }
+  
+  .btn-dark {
+    background: #797979;
+  }

@@ -1,0 +1,212 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #EEEEEE;
+}
+
+#Active{
+  color: #00ADB5;
+}
+
+#navbarSupportedContent ul li a {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 0 30px;
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+#navbarSupportedContent ul li a:after {
+  content: '';
+  height: 2px;
+  width: 0%;
+  background-color: #00ADB5;;
+  display: block;
+  transition: .5s ease-in-out;
+}
+
+#navbarSupportedContent ul li a:hover::after {
+  content: '';
+  height: 2px;
+  width: 100%;
+  background-color: #00ADB5;;
+  display: block;
+  transition: .5s ease-in-out;
+}
+
+@media screen and (min-width: 600px) {
+  .d-flex {
+    width: 500px;
+    height: 50px;
+    margin: auto;
+    background-color: #FFFFFF;
+    border-radius: 24px;
+  }
+}
+
+@media screen and (max-width: 601px) {
+  .d-flex {
+    width: 43vh;
+    height: 50px;
+    margin: auto;
+    background-color: #FFFFFF;
+    border-radius: 24px;
+  }
+}
+
+.d-flex input {
+  background: transparent;
+  flex: 1;
+  border: 24px;
+  outline: none;
+  padding: 0 25px;
+}
+
+.bag {
+  width: 35px;
+  height: auto;
+}
+
+.profile {
+  width: 30px;
+  height: auto;
+}
+
+.container h1 {
+  margin: 8% 30% 8% 39%;
+  padding-bottom: 15px;
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
+  width: fit-content;
+}
+
+@media screen and (max-width: 601px) {
+  .container h1 {
+    margin: 10% 30% 0 35%;
+    padding-bottom: 15px;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    width: fit-content;
+  }
+}
+
+.product {
+  margin-top: 5%;
+}
+
+.card-chair {
+  color: white;
+  background: rgba(37, 112, 109, 0.56);
+  border-radius: 23px;
+  border: none;
+}
+
+.card-body h5 {
+  font-family: 'Poppins', Medium;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 601px) {
+  .card-body h5 {
+    font-family: 'Poppins', Medium;
+    font-size: 35px;  
+    padding-bottom: 10px;
+  }
+}
+
+.buy-now {
+  margin-top: 4%;
+  cursor: pointer;
+  color: white;
+  background: #B2170E;
+  border: 1px solid #B2170E;
+  border-radius: 17px;
+}
+
+.buy-now:hover {
+  background: #B2170E;
+  border-radius: 17px;
+  box-shadow: 0px 9px 10px -2px #B2170E;
+  -webkit-box-shadow: 0px 9px 10px -2px #B2170E;
+  -moz-box-shadow: 0px 9px 10px -2px #B2170E;
+}
+
+@media screen and (min-width: 600px) {
+  #image-chair {
+    position: relative; 
+    margin-top: -95px;
+    margin-left: -40px;
+    width: 195px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 601px) {
+  #image-chair {
+    margin-top: 5%;
+    margin-left: 20%;
+    width: fit-content !important;
+    height: auto;
+  }
+}
+
+.card-lamp {
+  color: white;
+  background: #B1A534;
+  border-radius: 23px;
+  border: none;
+}
+
+@media screen and (min-width: 600px) {
+  #image-lamp {
+    position: relative; 
+    margin-top: -68px;
+    margin-left: -30px;
+    width: 130px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 601px) {
+  #image-lamp {
+    margin-top: 5%;
+    margin-left: 23%;
+    margin-bottom: 5%;
+    width: 200px;
+    height: auto;
+  }
+}
+
+.card-drawer {
+  color: white;
+  background: #BAB0A5;
+  border-radius: 23px;
+  border: none;
+}
+
+/* Drawer gambar */
+@media screen and (min-width: 600px) {
+  #image-drawer {
+    position: relative; 
+    margin-top: -60px;
+    margin-left: -50px;
+    width: 210px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 601px) {
+  #image-drawer {
+    margin-left: 10%;
+    width: 300px;
+    height: auto;
+  }
+}
+
+.buttom-custom {
+  margin-bottom: 15%;
+}
